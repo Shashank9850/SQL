@@ -1,0 +1,22 @@
+To create a Station table 
+
+CREATE TABLE station (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    city VARCHAR(20) NOT NULL,
+    state VARCHAR(20) NOT NULL
+);
+
+
+To enter the data in to the station table
+
+INSERT INTO station (city, state) VALUES
+('Atlanta', 'Georgia'),
+('Austin', 'Texas'),
+('Indianapolis', 'Indiana'),
+('Orlando', 'Florida'),
+('Utica', 'New York'),
+('El Paso', 'Texas'),
+('Irvine', 'California'),
+('Omaha', 'Nebraska'),
+('Albany', 'New York'),
+('Edmonton', 'Alberta');
